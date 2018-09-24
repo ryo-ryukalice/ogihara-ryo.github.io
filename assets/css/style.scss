@@ -1,0 +1,209 @@
+---
+---
+$base_font_size: 18px;
+$base_font_color: #555555;
+$link_hover_color: #e01090;
+$thin_font_color: #a4a4a4;
+
+$border_color: #444;
+$break_border_color: #eaeaea;
+
+$pre_font_color: #e0e0e0;
+$pre_background_color: #f5f5f5;
+
+$backquote_border_color: #d7d7d7;
+$backquote_background_color: #eaeaea;
+
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+body {
+  font-family:
+    'ヒラギノ明朝 ProN W3',
+    'Hiragino Mincho ProN',
+    'HG明朝E',
+    'ＭＳ Ｐ明朝',
+    'ＭＳ 明朝',
+    serif;
+  font-size: $base_font_size;
+  color: $base_font_color;
+  line-height: 32px;
+  margin: 8px;
+  padding: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  border-left: 5px solid $border_color;
+  margin: 64px 0 8px 0px;
+  padding: 8px 0 8px 8px;
+}
+
+h2:nth-of-type(1) {
+  margin-top: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 2px solid $break_border_color;
+  margin: 32px 0 8px 0;
+  padding: 15px 0 5px 0;
+}
+
+a {
+  color: $base_font_color;
+
+  &:hover {
+    color: $link_hover_color;
+    text-decoration: underline;
+  }
+}
+
+header {
+  a {
+    color: $base_font_color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link_hover_color;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      width: 80%;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      width: calc(100% / 3);
+      text-align: center;
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}
+
+#blog_list {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $break_border_color;
+
+    h1 {
+      line-height: 1.2;
+      margin: 0;
+    }
+  }
+}
+
+article {
+  h1 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 24px 0 8px 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+table {
+    border-collapse: collapse;
+    line-height: 1.5;
+
+  th {
+    width: auto;
+    padding: 10px 0;
+  }
+
+  td {
+    padding: 16px 8px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+span.date-time {
+  font-size: 80%;
+  text-align: left;
+  color: $thin_font_color;
+}
+
+pre {
+  padding: 16px;
+  overflow-x: auto;
+  word-break: normal;
+  background: $pre_background_color;
+}
+
+blockquote {
+  margin: 0;
+  position: relative;
+  padding: 16px;
+  border: 3px solid $backquote_border_color;
+  background-color: $backquote_background_color;
+  z-index: 1;
+
+  p {
+    position: relative;
+    z-index: 3;
+  }
+
+  &:before {
+    content: '“';
+    font-size: 1000%;
+    line-height: 0.8em;
+    font-family: 'Times New Roman', 'ＭＳ Ｐゴシック', sans-serif;
+    color: #f0f0f0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  $width: 768px;
+
+  body {
+    margin-top: 32px;
+  }
+
+  header, article {
+    width: $width;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: left;
+
+    h1 {
+      width: 70%;
+      text-align: left;
+      display: inline-block;
+    }
+  }
+}
