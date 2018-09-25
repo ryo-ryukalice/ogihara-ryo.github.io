@@ -14,52 +14,19 @@ $pre_background_color: #f5f5f5;
 $backquote_border_color: #d7d7d7;
 $backquote_background_color: #eaeaea;
 
+@import url('reset.css');
 @import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+@import url('//fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+  height: 100%;
+}
 
 body {
-  font-family:
-    'ヒラギノ明朝 ProN W3',
-    'Hiragino Mincho ProN',
-    'HG明朝E',
-    'ＭＳ Ｐ明朝',
-    'ＭＳ 明朝',
-    serif;
+  font-family: 'Raleway', sans-serif;
   font-size: $base_font_size;
   color: $base_font_color;
   line-height: 32px;
-  margin: 8px;
-  padding: 16px;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: normal;
-  text-align: left;
-  border-left: 5px solid $border_color;
-  margin: 64px 0 8px 0px;
-  padding: 8px 0 8px 8px;
-}
-
-h2:nth-of-type(1) {
-  margin-top: 32px;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: normal;
-  text-align: left;
-  border-bottom: 2px solid $break_border_color;
-  margin: 32px 0 8px 0;
-  padding: 15px 0 5px 0;
-}
-
-a {
-  color: $base_font_color;
-
-  &:hover {
-    color: $link_hover_color;
-    text-decoration: underline;
-  }
 }
 
 header {
@@ -99,6 +66,55 @@ header {
   }
 }
 
+#home {
+  color: #f4f4f4;
+  background-color: #404040;
+  text-align: center;
+  height: 100%;
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.4em;
+    font-weight: 600;
+    letter-spacing: 8px;
+    padding-top: 200px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  #index {
+    margin-top: 80px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 16px;
+    margin: 20px auto;
+
+    #social {
+      font-size: 24px;
+    }
+
+    li {
+      display: inline-block;
+      padding: 0px 20px;
+      margin: 0px;
+
+      a {
+        color: #a0a0a0;
+        transition: color .5s;
+
+        &:hover {
+          color: $link_hover_color;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
 #blog_list {
   ul {
     padding: 0;
@@ -118,6 +134,9 @@ header {
 }
 
 article {
+  margin: 8px;
+  padding: 16px;
+
   h1 {
     font-size: 32px;
     font-weight: normal;
@@ -126,6 +145,37 @@ article {
 
     a {
       text-decoration: none;
+    }
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    border-left: 5px solid $border_color;
+    margin: 64px 0 8px 0px;
+    padding: 8px 0 8px 8px;
+  }
+
+  h2:nth-of-type(1) {
+    margin-top: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 2px solid $break_border_color;
+    margin: 32px 0 8px 0;
+    padding: 15px 0 5px 0;
+  }
+
+  a {
+    color: $base_font_color;
+
+    &:hover {
+      color: $link_hover_color;
+      text-decoration: underline;
     }
   }
 }
@@ -187,13 +237,13 @@ blockquote {
 @media screen and (min-width: 768px) {
   $width: 768px;
 
-  body {
-    margin-top: 32px;
-  }
-
   header, article {
     width: $width;
     margin: 0 auto;
+  }
+
+  article {
+    margin-top: 32px;
   }
 
   header {
