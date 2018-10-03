@@ -1,6 +1,6 @@
 ---
 ---
-$base_font_size: 18px;
+$base_font_size: 16px;
 $base_font_color: #555555;
 $link_hover_color: #e01090;
 $thin_font_color: #a4a4a4;
@@ -161,7 +161,7 @@ footer {
   }
 }
 
-#blog_list {
+#blog-list {
   ul {
     padding: 0;
   }
@@ -175,6 +175,9 @@ footer {
     h1 {
       line-height: 1.2;
       margin: 0;
+      a {
+        color: $base_font_color;
+      }
     }
   }
 }
@@ -183,8 +186,9 @@ article {
   padding: 64px 32px;
 
   h1 {
-    font-size: 40px;
+    font-size: 32px;
     line-height: 48px;
+    margin-bottom: 32px;
 
     a {
       text-decoration: none;
@@ -227,6 +231,10 @@ article {
       text-decoration: underline;
     }
   }
+
+  p {
+    margin-top: 32px;
+  }
 }
 
 table {
@@ -251,10 +259,10 @@ span.date-time {
 }
 
 pre {
+  font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
   padding: 16px;
   overflow-x: auto;
   word-break: normal;
-  background: $pre_background_color;
 }
 
 blockquote {

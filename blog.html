@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog | Ogihara Ryo
+permalink: /blog
+---
+
+<ul id="blog-list">
+  {% for post in site.posts %}
+    <li>
+      <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+      <span class="date-time">Posted on {{ post.date | date: "%A, %m %-d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
