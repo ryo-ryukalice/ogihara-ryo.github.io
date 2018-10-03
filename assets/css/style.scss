@@ -116,6 +116,24 @@ footer {
     font-size: 16px;
     margin: 20px auto;
 
+    li.github {
+      a:hover {
+        color: #4183c4;
+      }
+    }
+
+    li.twitter {
+      a:hover {
+        color: #00aced;
+      }
+    }
+
+    li.facebook {
+      a:hover {
+        color: #305097;
+      }
+    }
+
     #social {
       font-size: 24px;
     }
@@ -162,13 +180,11 @@ footer {
 }
 
 article {
-  padding: 32px 0;
+  padding: 64px 32px;
 
   h1 {
-    font-size: 32px;
-    font-weight: normal;
+    font-size: 40px;
     line-height: 48px;
-    margin: 24px 0 8px 0;
 
     a {
       text-decoration: none;
@@ -197,8 +213,14 @@ article {
     padding: 15px 0 5px 0;
   }
 
+  li {
+    margin-left: 24px;
+    padding-left: 4px;
+    list-style: circle;
+  }
+
   a {
-    color: $base_font_color;
+    color: #00a0f0;
 
     &:hover {
       color: $link_hover_color;
