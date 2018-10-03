@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
 
   <body>
     <header>
-      <h1><a href="/">Ogihara Ryo</a></h1>
+      <nav>
+        <h1><a href="/">Ogihara Ryo</a></h1>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="https://ogihara-ryo.herokuapp.com">Blog</a></li>
+          <li><a href="#">Tech</a></li>
+        </ul>
     </header>
 
     <article>{{ content }}</article>
+
+    <footer>
+      <ul id="index">
+        <li><a href="/about">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Tech</a></li>
+      </ul>
+
+      <ul id="social">
+        <li><a href="https://github.com/ogihara-ryo"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/ryo.ogihara.5"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/OgiharaRyo"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+      <p id="copyright">©2018 Ogihara Ryo</p>
+    </footer>
   </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About | Ogihara Ryo
 permalink: /about
 ---
 {% include about.html %}
