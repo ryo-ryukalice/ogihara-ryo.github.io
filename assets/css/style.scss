@@ -168,11 +168,12 @@ footer {
 
   li {
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    margin-left: 0;
     border-bottom: 1px solid $break_border_color;
 
     h1 {
+      font-size: 28px;
       line-height: 1.2;
       margin: 0;
       a {
@@ -297,6 +298,7 @@ blockquote {
   article {
     width: $width;
     margin: 0 auto;
+    padding: 64px 0;
   }
 
   header {
