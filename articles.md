@@ -26,4 +26,6 @@ permalink: /articles
 
 - [raise で例外クラスにパラメーターを与える]({% post_url 2017-02-10-pass-parameter-to-raise %})
 - [View から Google Drive 上のファイルをダウンロードする]({% post_url 2018-05-31-download-from-google-drive %})
+- [ActiveAdmin のフィルターで optgroup 要素を使用する]({% post_url 2018-10-29-use-optgroup-for-activeadmin-filter %})
 - [Redmine プラグイン開発に学ぶパッチング作法(Qiita)](https://qiita.com/OgiharaRyo/items/b2ed27d886548fed8864)
+- [旧システムから新システムへのデータマイグレーション](https://qiita.com/OgiharaRyo/items/cf7a288e16d3436264d9)
