@@ -292,6 +292,12 @@ blockquote {
   }
 }
 
+.highlight {
+  .nf {
+    font-weight: normal !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   $width: 768px;
 
