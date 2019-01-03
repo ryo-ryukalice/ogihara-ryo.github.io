@@ -7,7 +7,7 @@ permalink: :title
 
 # 教育による能力の再現性に対する幻想
 
-年末に読んだ [mizchi](https://twitter.com/mizchi) 氏の記事を読んで、プログラミング教育のあり方について考えると共に一種の諦めを覚えた。  
+年末に読んだ [mizchi](https://twitter.com/mizchi) 氏の記事を読んで、プログラミング教育のあり方について考えた。  
 [プログラマという現代の傭兵 | mizchi's blog](https://mizchi.hatenablog.com/entry/2018/12/26/103000)
 
 この記事では、現代のプログラミング技術がコモディティ化しない原因として、下記を上げている。
