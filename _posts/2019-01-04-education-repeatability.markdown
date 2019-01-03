@@ -2,6 +2,7 @@
 layout: default
 title:  "教育による能力の再現性に対する幻想"
 date:   2019-01-04 00:00:00 +0900
+description: 放っておいても育つ人材の教育には再現性がない話
 permalink: :title
 ---
 
