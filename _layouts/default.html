@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/syntax.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}" />
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}" />
+    {% endif %}
+
+    {% if page.image %}
+      <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}" />
+    {% else %}
+      <meta name="twitter:image" content="{{ site.url }}/images/logo.png" />
+    {% endif %}
   </head>
 
   <body>
