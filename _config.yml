@@ -16,6 +16,7 @@
 title: Ogihara Ryo
 email: ogihara.ryo.b@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+  ソフトウェアエンジニア / 個人事業主 / Ruby on Rails / dvorak配列 / Ergodox EZ / 在宅フルフレックス勤務絶対主義 / 労働は1日1時間目標 / 眼精疲労重症 / 超ヘビーゲーマー
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ogihara-ryo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OgiharaRyo
