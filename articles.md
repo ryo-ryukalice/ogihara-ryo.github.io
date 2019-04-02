@@ -14,6 +14,7 @@ permalink: /articles
 
 - [仕事の流儀]({% post_url 2018-07-06-work-style %})
 - [Railsしかできない初学者を応援する話]({% post_url 2017-05-04-ale-for-rails-beginners %})
+- [リニューアルを控えた新生JOBドラフトを支える技術](https://hitotomirai.co.jp/?blog=a140)
 
 ## 人生
 
