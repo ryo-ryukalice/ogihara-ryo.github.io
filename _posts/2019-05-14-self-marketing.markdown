@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "10連休と令和に向けて"
-date:   2019-04-27 00:00:00 +0900
-description: 10連休と令和に向けて
+title:  "自らを商材として捉える働き方"
+date:   2019-05-14 00:00:00 +0900
+description: 自らを商材として捉える働き方
 permalink: :title
 ---
 
