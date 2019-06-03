@@ -23,11 +23,8 @@
       <meta name="twitter:description" content="{{ site.description }}" />
     {% endif %}
 
-    {% if page.image %}
-      <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image }}" />
-    {% else %}
-      <meta name="twitter:image" content="/assets/images/logo.jpg" />
-    {% endif %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.jpg" />
+    <meta name="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
   </head>
 
   <body>
