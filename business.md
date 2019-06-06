@@ -6,7 +6,7 @@ permalink: /business
 
 # 仕事募集
 
-Ruby on Rails の開発や技術支援(コードレビューやチャットツール常駐の技術相談等)、及び個人向けメンターを行います。お問い合わせは [Facebook](https://www.facebook.com/ryo.ogihara.5), [Twitter](https://twitter.com/OgiharaRyo), メール( `ogihara.ryo.b@gmail.com` ) 等、お好みのルートでお願いします。私のキャリアについては、[この記事](http://localhost:4000/career-path)をご覧ください。
+Ruby on Rails の開発や技術支援(コードレビューやチャットツール常駐の技術相談等)、及び個人向けメンターを行います。お問い合わせは [Facebook](https://www.facebook.com/ryo.ogihara.5), [Twitter](https://twitter.com/OgiharaRyo), メール( `ogihara.ryo.b@gmail.com` ) 等、お好みのルートでお願いします。私のキャリアについては、[この記事](https://ogihara-ryo.github.io/career-path)をご覧ください。
 
 ## 技術支援
 
