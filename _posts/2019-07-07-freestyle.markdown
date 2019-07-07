@@ -2,7 +2,7 @@
 layout: default
 title:  "3on3 FreeStyle というゲームについて語る"
 date:   2019-07-07 00:00:00 +0900
-description: 3on3 FreeStyle の現環境について 
+description: 3on3 FreeStyle の運営とキャラクター使用感について 
 permalink: :title
 ---
 
