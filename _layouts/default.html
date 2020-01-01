@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="/assets/css/syntax.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@{{ site.twitter_username }}" />
 
     {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }}" />
+      <meta property="twitter:title" content="{{ page.title }}" />
     {% else %}
-      <meta name="twitter:title" content="{{ site.title }}" />
+      <meta property="twitter:title" content="{{ site.title }}" />
     {% endif %}
 
     {% if page.description %}
-      <meta name="twitter:description" content="{{ page.description }}" />
+      <meta property="twitter:description" content="{{ page.description }}" />
     {% else %}
-      <meta name="twitter:description" content="{{ site.description }}" />
+      <meta property="twitter:description" content="{{ site.description }}" />
     {% endif %}
 
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.jpg" />
-    <meta name="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
+    <meta property="twitter:image" content="{{ site.url }}/assets/images/logo.jpg" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/logo.jpg" />
   </head>
 
   <body>
