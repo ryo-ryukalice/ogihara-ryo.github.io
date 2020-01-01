@@ -6,10 +6,6 @@ permalink: /articles
 
 # Arcicle
 
-過去に執筆した記事
-
-[旧ブログ(記事移行中)](https://ogihara-ryo.herokuapp.com)
-
 ## 思想・働き方
 
 - [仕事の流儀]({% post_url 2018-07-06-work-style %})
@@ -31,3 +27,8 @@ permalink: /articles
 - [Redmine プラグイン開発に学ぶパッチング作法(Qiita)](https://qiita.com/OgiharaRyo/items/b2ed27d886548fed8864)
 - [旧システムから新システムへのデータマイグレーション(Qiita)](https://qiita.com/OgiharaRyo/items/cf7a288e16d3436264d9)
 - [Salesforce のオブジェクトを Rails のデータベースに反映する(Qiita)](https://qiita.com/OgiharaRyo/items/874936748451845f7218)
+- [Ruby on Rails と React Native で作る web & モバイルアプリ [webアプリ編]](https://qiita.com/OgiharaRyo/items/9949e5a2cda5e48060f0)
+
+### React Native
+
+- [Ruby on Rails と React Native で作る web & モバイルアプリ [モバイルアプリ編]](https://qiita.com/OgiharaRyo/items/9d16c935bcf769c82bc4)
