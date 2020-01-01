@@ -157,6 +157,7 @@ permalink: /me
 
 ### 12-6. TDD
 
+### 12-7. エディター
 
 ## 13. メンタル
 
@@ -193,3 +194,9 @@ permalink: /me
 
 
 ## 終わりに
+
+<style scoped>
+  article {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+</style>
