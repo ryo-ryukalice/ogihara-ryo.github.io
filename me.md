@@ -2,6 +2,7 @@
 layout: default
 title: Me | Ogihara Ryo
 permalink: /me
+description: 自分語り
 ---
 
 # Me
