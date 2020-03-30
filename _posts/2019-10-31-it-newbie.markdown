@@ -12,7 +12,7 @@ permalink: :title
 
 IT 関連職を目指す人や、新しい技術に挑戦する人に向けた slack ワークスペースだ。元々は、初学者を無料でオープンなコミュニティに集めて、外部のオンライン教材の組み合わせでカリキュラムを作って、コミュニティ内で質問しあったり教えあったりして共に切磋琢磨できれば、初学者の成長環境としては充分なのでは？という発想から作られたワークスペースだ。
 
-[興味のある方は、こちらからどうぞ。](https://join.slack.com/t/it-newbie/shared_invite/enQtODE0Nzk3MzQ0NDIxLTBiZTFjNjZhZmYxOTk2MGUwZWMyMjE1MzBiZmNmNmUyZjBhN2VhZDQyYjcyNjI4YzYxYjk1MGJkNWU1MDdmYjU)
+[興味のある方は、こちらからどうぞ。](https://join.slack.com/t/it-newbie/shared_invite/zt-at5pxyht-JvxoM768Z4Dj6t2qpVdPrQ)
 
 ## 現状
 
@@ -59,4 +59,4 @@ IT 関連職を目指す人や、新しい技術に挑戦する人に向けた s
 
 完全に見切り発車で始まったプロジェクトなので、まだフワついている部分が多いが、協力を申し出てくれた方や運営方針の提案をしてくれる方もいらっしゃるので、皆で協力しながらこの業界を少しでも良くしていきたいと思う。  
   
-[ご参加はこちらから](https://join.slack.com/t/it-newbie/shared_invite/enQtODE0Nzk3MzQ0NDIxLTBiZTFjNjZhZmYxOTk2MGUwZWMyMjE1MzBiZmNmNmUyZjBhN2VhZDQyYjcyNjI4YzYxYjk1MGJkNWU1MDdmYjU)
+[ご参加はこちらから](https://join.slack.com/t/it-newbie/shared_invite/zt-at5pxyht-JvxoM768Z4Dj6t2qpVdPrQ)
