@@ -21,19 +21,17 @@ permalink: :title
 #include <time.h>
 
 void Thread::Execute() {
-	clock_t startTime, endTime;
+    clock_t startTime, endTime;
 
-	while (!Terminated) {
-		startTime = clock();
+    while (!Terminated) {
+        startTime = clock();
+        
+	// 時間のかかる処理
 
-		// 複雑でながーい処理。多分20msecぐらいかかってる。
-
-		endTime = clock();
-
-		double margin = (double)(endTime - startTime) / CLOCKS_PER_SEC;
-
-		Sleep(100);
-	}
+        endTime = clock();
+        double margin = (double)(endTime - startTime) / CLOCKS_PER_SEC;
+        Sleep(100);
+    }
 }
 ```
 
