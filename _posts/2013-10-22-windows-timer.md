@@ -70,12 +70,12 @@ timeEndPeriod(1)
 
 > 当然の如く、これらの設定はグローバルなもので、システム全体に影響を及ぼす。だから、よく言われるおまじないのようなものがある。曰く、「このソフトは、Windows Media Playerと一緒に起動していると、キビキビ動くようになるぜ」といった類のおまじないだ。Windows Media Playerは、音声や動画を再生するソフトウェアなので、当然の如く時間にシビアである。さもなければ、音とびやコマ落ちが発生する。それではメディアプレイヤーの役割を果たさないわけだから、WMPはtimeBeginPeriodを使う理由がある。
 
-[参考：本の虫: Google Chromeを使うとファンの回転数が上がる理由](https://cpplover.blogspot.com/2008/09/google-chrome_10.html)
+参考: [本の虫: Google Chromeを使うとファンの回転数が上がる理由](https://cpplover.blogspot.com/2008/09/google-chrome_10.html)
 
 すると、さらに「エコじゃない」という問題も出てきますね。スレッドの切り替えが頻繁に行われるということは、アイドル状態でいることができなくなるということで、消費電力も当然増えてしまうわけです。
 
 > たとえば、timeBeginPeriod API を使用してプラットフォームのタイマーの精度を向上させるアプリケーションについて考えてみましょう。その場合、プラットフォームのタイマー チックの精度が向上し、プロセッサが低消費電力のアイドル モードを効率的に使用できなくなります。1 つのアプリケーションでタイマー精度が 1ms まで向上した状態が保たれると、一般的なノートブック PC の場合は、バッテリの寿命に最大 10% の影響が及ぶことが観察されました。
 
-参考[Windows 7 のエネルギー効率 - マイクロソフトのEngineering Windows 7 ブログ - Site Home - MSDN Blogs](https://docs.microsoft.com/ja-jp/archive/blogs/)
+参考: [Windows 7 のエネルギー効率 - マイクロソフトのEngineering Windows 7 ブログ - Site Home - MSDN Blogs](https://docs.microsoft.com/ja-jp/archive/blogs/)
 
 今回は処理時間計測の目的でしたが、「Sleepの精度が上がるからやっとけ」みたいな感じで気軽に使うことは注意した方が良いかもしれません。
