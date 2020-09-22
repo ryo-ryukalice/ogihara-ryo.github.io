@@ -1,0 +1,12 @@
+---
+layout: default
+title:  "ブログを引っ越しました"
+date:   2020-09-23 00:00:00 +0900
+description: ブログを引っ越しました
+permalink: :title
+---
+
+最近こちらのサイトにアクセスが続いているようなので一応お知らせです。
+ブログは以下に引っ越しています。
+
+[https://ryukalice.com/blog](https://ryukalice.com/blog)
